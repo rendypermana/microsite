@@ -1,0 +1,186 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*homepage*/
+  .navbar-brand img {
+    height: 61px;
+    margin-top: -33px;
+    margin-bottom: -29px;
+  }
+  .navbar-right img{
+    height: 21px;
+  }
+  .side-homepage {
+    margin: 15px 0px;
+    color: #3b3b4d;
+    padding-bottom: 10px;
+  }
+  .company-left {
+    margin-left: 0px;
+  }
+  .right-homepage {
+    margin-right: 0px;
+  }
+  .side-homepage h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .sub-text {
+    font-size: 14px;
+  }
+  .mobile-first{
+    display: block;
+  }
+  .mobile-first img{
+    width: 100%;
+  }
+  .exclusive-case {
+    display: none;
+  }
+  .premi {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .form-side {
+    padding-top: 10px;
+    border-top: 1px solid #212529;
+  }
+  label.label-insurance {
+    font-size: 18px;
+  }
+  .form-insurance {
+    font-size: 18px;
+  }
+  .button-insurance {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .foot-social {
+    display: flex;
+  }
+  .social-follow img {
+    width: 30px;
+    padding-right: 5px;
+  }
+  .company-right {
+    text-align: right;
+    margin-right: 30px;
+    width: 60%;
+  }
+  .social-follow {
+    float: right;
+    display: flex;
+    font-weight: bold;
+    margin-right: 24px;
+    margin-top: 10px;
+    width: 40%;
+  }
+  .company-right img {
+    width: 221px;
+  }
+  .social-follow p {
+    display: none;
+  }
+  .footer p {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .col-xs-6.col-md-6 {
+    width: 50%;
+  }
+  .side-left {
+    font-size: 21px;
+  }
+  .side-right p {
+    font-weight: bolder;
+  }
+  .addres-office p {
+    line-height: 1.7px;
+    font-size: 12px;
+  }
+  .company-left h1 {
+    font-size: 16px;
+  }
+
+  /*FORM*/
+  /*detail pemegang polis*/
+  .big-title h1{
+    font-size: 18px;
+  }
+  .text-title p {
+    font-size: 10px;
+  }
+  .form-area {
+    margin-top: 20px;
+  }
+  .title-green h3{
+    font-size: 18px;
+  }
+  label.label-form {
+    font-size: 14px;
+  }
+  .sejajar {
+    padding-top: 2px;
+  }
+}
+@media (max-width: 320px) {
+  
+}
